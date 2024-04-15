@@ -1,14 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Sample writer data (replace with your actual data)
-    var writers = [
-      "Jane Austen",
-      "Leo Tolstoy",
-      "William Shakespeare",
-      "Charles Dickens",
-      "Mark Twain",
-      "Emily Dickinson",
-      // Add more writers as needed
-    ];
+    var writers = [];
   
     // Sort the writers array alphabetically
     writers.sort();
