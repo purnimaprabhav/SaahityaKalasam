@@ -1,0 +1,155 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #008080; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Add some padding */
+}
+
+.container {
+    max-width: 1200px; /* Limit the width of the header */
+    margin: 0 auto; /* Center the content */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.logo img {
+    max-width: 200px; /* Limit the width of the logo */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+}
+
+nav ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 20px; /* Add some space between items */
+}
+
+nav ul li a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+/* Style the hero section */
+.hero {
+    background-image: url("https://github.com/purnimaprabhav/SaahityaKalasam/blob/main/1.jpeghttps://github.com/purnimaprabhav/SaahityaKalasam/blob/main/1.jpeg"); /* Replace 'hero-background.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire section */
+    color: #fff; /* Text color */
+    padding: 100px 0; /* Add some padding */
+    text-align: center; /* Center align text */
+}
+
+.hero .container {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content */
+}
+
+.hero h1 {
+    font-size: 36px; /* Large font size for title */
+    margin-bottom: 20px; /* Add some space below title */
+}
+
+.hero p {
+    font-size: 18px; /* Medium font size for subtitle */
+    margin-bottom: 30px; /* Add some space below subtitle */
+}
+/* Style the about section */
+.about {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 80px 0; /* Add some padding */
+    text-align: center; /* Center align text */
+}
+
+.about h2 {
+    font-size: 32px; /* Large font size for title */
+    margin-bottom: 40px; /* Add some space below title */
+}
+
+.about-content {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content */
+}
+
+.about-content p {
+    font-size: 18px; /* Medium font size for paragraph */
+    line-height: 1.6; /* Set line height for better readability */
+}
+
+/* Style the footer section */
+.footer {
+    background-color: #008080; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 40px 0; /* Add some padding */
+}
+
+.footer .container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.contact-info h3 {
+    font-size: 24px; /* Large font size for heading */
+    margin-bottom: 10px; /* Add some space below heading */
+}
+
+.contact-info p {
+    font-size: 16px; /* Medium font size for contact info */
+}
+
+.social-media {
+    margin-top: 10px; /* Add some space above social media links */
+}
+
+.social-link {
+    display: inline-block; /* Display links inline */
+    margin-right: 10px; /* Add some space between links */
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.social-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.footer-nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    display: flex; /* Use flexbox for layout */
+}
+
+.footer-nav ul li {
+    margin-right: 20px; /* Add some space between navigation items */
+}
+
+.footer-nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last navigation item */
+}
+
+.footer-nav ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Style the copyright section */
+.copyright {
+    padding: 20px 0; /* Add some padding */
+    text-align: center; /* Center align text */
+}
+
+.copyright p {
+    font-size: 14px; /* Small font size for copyright notice */
+}
