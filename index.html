@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saahitya Kalasam</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href=".git\styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
                 <h2> Saahitya Kalasam</h2>
+                <!-- Replace the image URL with a direct URL to your image -->
                 <img src="https://github.com/purnimaprabhav/SaahityaKalasam/blob/main/1.jpeg?raw=true" alt="Telugu Writers Directory">
             </div>
             <nav>
@@ -23,46 +24,195 @@
             </nav>
         </div>
     </header>
+    <body>
+            <title>Discover Telugu Writers</title>
+            <style>
+                /* CSS code for the hero section */
+                .hero {
+                    background-color: #f7f7f7; /* Light background color */
+                    padding: 100px 0; /* Add padding to the top and bottom */
+                    text-align: center; /* Center align text */
+                }
+        
+                .hero h1 {
+                    font-size: 36px; /* Large font size for title */
+                    color: #333; /* Text color */
+                    margin-bottom: 20px; /* Add some space below title */
+                }
+        
+                .hero p {
+                    font-size: 18px; /* Medium font size for subtitle */
+                    color: #666; /* Text color */
+                    margin-bottom: 30px; /* Add some space below subtitle */
+                }
+        
+                /* Container styles */
+                .container {
+                    max-width: 800px; /* Limit the width of the container */
+                    margin: 0 auto; /* Center the container */
+                }
+            </style>
+    <style>
+        /* CSS code for alphabet buttons */
+        .alphabet-buttons {
+            margin-top: 10px; /* Add some space above the buttons */
+            text-align: center; /* Center align buttons */
+        }
 
-    <div class="hero">
-        <div class="container">
-            <h1>Discover Telugu Writers</h1>
-        </div>
-    </div>
+        .alphabet-btn {
+            margin: 0 5px; /* Add some space between buttons */
+            padding: 5px 10px; /* Add padding to buttons */
+            background-color: #f0f0f0; /* Button background color */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Add border radius to buttons */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            text-decoration: none; /* Remove underline from links */
+            color: #333; /* Button text color */
+        }
 
+        .alphabet-btn:hover {
+            background-color: #ddd; /* Lighter background color on hover */
+        }
+        .search-bar {
+            margin-top: 20px; /* Add some space above the search bar */
+            text-align: center; /* Center align search bar */
+        }
+
+        .search-bar input[type="text"] {
+            padding: 8px; /* Add padding to input field */
+            width: 300px; /* Set width of input field */
+            border: 1px solid #ccc; /* Add border to input field */
+            border-radius: 5px; /* Add border radius to input field */
+            margin-right: 5px; /* Add some space between input field and button */
+        }
+
+        .search-bar button {
+            padding: 8px 16px; /* Add padding to button */
+            background-color: #1100ff; /* Button background color */
+            color: #fff; /* Button text color */
+            border: none; /* Remove button border */
+            border-radius: 5px; /* Add border radius to button */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+        .search-bar button:hover {
+            background-color: #0057b360; /* Darker background color on hover */
+        }
+
+        .writer-names {
+            margin-top: 20px; /* Add some space above the writer names */
+            text-align: center; /* Center align writer names */
+        }
+
+        .writer-names a {
+            display: block; /* Display writer names as block elements */
+            margin-bottom: 5px; /* Add some space between writer names */
+            text-decoration: none; /* Remove underline from links */
+            color: #333; /* Writer names text color */
+        }
+
+        .writer-names a:hover {
+            text-decoration: underline; /* Underline writer names on hover */
+        }
+    </style>
     <div class="search-bar">
         <input type="text" id="search" placeholder="Search Telugu writers...">
         <button id="search-button">Search</button>
     </div>
 
+    <div class="writer-names">
+        <!-- Writer names will be dynamically generated here -->
+    </div>
     <div class="alphabet-buttons">
-        <!-- Alphabet buttons will be dynamically generated here -->
+        <!-- Hyperlinks for each alphabet -->
+        <a href="#" class="alphabet-btn" data-filter="A">A</a>
+        <a href="#" class="alphabet-btn" data-filter="B">B</a>
+        <a href="#" class="alphabet-btn" data-filter="C">C</a>
+        <a href="#" class="alphabet-btn" data-filter="D">D</a>
+        <a href="#" class="alphabet-btn" data-filter="E">E</a>
+        <a href="#" class="alphabet-btn" data-filter="F">F</a>
+        <a href="#" class="alphabet-btn" data-filter="G">G</a>
+        <a href="#" class="alphabet-btn" data-filter="H">H</a>
+        <a href="#" class="alphabet-btn" data-filter="I">I</a>
+        <a href="#" class="alphabet-btn" data-filter="J">J</a>
+        <a href="#" class="alphabet-btn" data-filter="K">K</a>
+        <a href="#" class="alphabet-btn" data-filter="L">L</a>
+        <a href="#" class="alphabet-btn" data-filter="M">M</a>
+        <a href="#" class="alphabet-btn" data-filter="N">N</a>
+        <a href="#" class="alphabet-btn" data-filter="O">O</a>
+        <a href="#" class="alphabet-btn" data-filter="P">P</a>
+        <a href="#" class="alphabet-btn" data-filter="Q">Q</a>
+        <a href="#" class="alphabet-btn" data-filter="R">R</a>
+        <a href="#" class="alphabet-btn" data-filter="S">S</a>
+        <a href="#" class="alphabet-btn" data-filter="T">T</a>
+        <a href="#" class="alphabet-btn" data-filter="U">U</a>
+        <a href="#" class="alphabet-btn" data-filter="V">V</a>
+        <a href="#" class="alphabet-btn" data-filter="W">W</a>
+        <a href="#" class="alphabet-btn" data-filter="X">X</a>
+        <a href="#" class="alphabet-btn" data-filter="Y">Y</a>
+        <a href="#" class="alphabet-btn" data-filter="Z">Z</a>
+        <a href="#" class="alphabet-btn" data-filter="ALL">All</a>
     </div>
 
     <div class="writer-names">
         <!-- Writer names will be dynamically generated here -->
     </div>
 
-    <footer class="footer" id="contact">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const alphabetButtons = document.querySelectorAll('.alphabet-btn');
+            const writerNamesContainer = document.querySelector('.writer-names');
+
+            let writerNames = ['Alice', 'Bob', 'Charlie', 'David', 'Eva', 'Frank', 'Grace', 'Henry', 'Isabel', 'Jack', 'Katie'];
+
+            function filterWriterNames(alphabet) {
+                writerNamesContainer.innerHTML = '';
+
+                writerNames.forEach(name => {
+                    if (alphabet === 'ALL' || name.startsWith(alphabet)) {
+                        const writerLink = document.createElement('a');
+                        writerLink.href = '#'; // Add hyperlink (replace with actual writer profile link)
+                        writerLink.textContent = name;
+                        writerNamesContainer.appendChild(writerLink);
+                    }
+                });
+            }
+
+            alphabetButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const filterValue = button.dataset.filter.toUpperCase();
+                    filterWriterNames(filterValue);
+                });
+            });
+
+            // Display all writer names initially
+            filterWriterNames('ALL');
+        });
+    </script>
+
+
+<footer class="footer" id="contact">
         <div class="container">
             <div class="contact-info">
                 <h3>Contact Us</h3>
                 <p>Email: example@example.com</p>
+                <!-- Add social media links -->
                 <div class="social-media">
                     <a href="#" class="social-link">Facebook</a>
                     <a href="#" class="social-link">Twitter</a>
                     <a href="#" class="social-link">Instagram</a>
+                    <!-- Add more social media links as needed -->
                 </div>
             </div>   
-        </div>
+            <div id="writers-list">
+                <ul id="writers"></ul>
+              </div>
+              <script src="functions.js"></script>       
         <div class="copyright">
             <div class="container">
                 <p>&copy; 2024 SaahityaKalasam.org All rights reserved.</p>
             </div>
         </div>
     </footer>
-
-    <script src="functions.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
