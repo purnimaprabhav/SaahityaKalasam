@@ -4,24 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saahitya Kalasam</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href=".git\styles.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
+                <h2> Saahitya Kalasam</h2>
+                <!-- Replace the image URL with a direct URL to your image -->
                 <img src="https://github.com/purnimaprabhav/SaahityaKalasam/blob/main/1.jpeg?raw=true" alt="Telugu Writers Directory">
             </div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Writers</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#About">About Us</a></li>
+                    <li><a href="#Writers">Writers</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <!-- Main content sections will go here -->
+    <section class="hero">
+        <div class="container">
+            <h1>Discover Telugu Writers</h1>
+            <p>Explore the rich culture of Telugu literature through our curated directory of talented writers.</p>
+        </div>
+    </section>
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: example@example.com</p>
+                <!-- Add social media links -->
+                <div class="social-media">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <!-- Add more social media links as needed -->
+                </div>
+            </div>   
+            <div id="writers-list">
+                <h2>Writers</h2>
+                <ul id="writers"></ul>
+              </div>
+              <script src="functions.js"></script>       
+        <div class="copyright">
+            <div class="container">
+                <p>&copy; 2024 SaahityaKalasam.org All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
