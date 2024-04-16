@@ -1,12 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
-  }
-  html,
-  body {
+}
+
+html, body {
     position: relative;
-  }
-  
+}
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -31,17 +31,16 @@ header {
 .hero .container {
     max-width: 800px;
     margin: 0 auto;
-
 }
 
 .hero h1 {
     font-size: 36px;
-    color:blueviolet;
+    color: blueviolet;
 }
 
 .hero p {
     font-size: 18px;
-    color:aqua
+    color: aqua;
 }
 
 .container {
@@ -90,6 +89,49 @@ header {
     color: #fff;
     border-color: #007bff;
 }
+
+/* ... (rest of your CSS code) ... */
+
+/* Footer styles */
+.footer {
+    background-color: #008080;
+    color: #fff;
+    padding: 60px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.contact-info h3 {
+    font-size: 24px; /* Large font size for heading */
+    margin-bottom: 10px; /* Add some space below heading */
+}
+
+.contact-info p {
+    font-size: 16px; /* Medium font size for contact info */
+}
+
+.social-media {
+    margin-top: 10px; /* Add some space above social media links */
+}
+
+.social-link {
+    display: inline-block; /* Display links inline */
+    margin-right: 10px; /* Add some space between links */
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.social-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
 .logo {
     display: flex; /* Use flexbox for logo alignment */
     align-items: center; /* Align items vertically */
@@ -144,7 +186,6 @@ nav ul li a:hover {
     font-size: 18px; /* Medium font size for paragraph */
     line-height: 1.6; /* Set line height for better readability */
 }
-
 /* Style the footer section */
 .footer {
     background-color: #008080;
