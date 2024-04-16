@@ -39,7 +39,7 @@ header {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between; /* Spacing between logo and nav */
     align-items: center;
 }
@@ -47,21 +47,21 @@ header {
 /* Styles for the pagination component */
 .alpha-pagination {
     margin-top: 20px;
-    text-align: center;
+    align-items: center;
 }
 
 .alpha-pagination-list {
     list-style: none;
     display: flex; /* Use flexbox */
+    justify-content: center; /* Center align the items */
 }
 
 .alpha-pagination-list li {
     margin-right: 5px;
-    display: inline; /* Ensure list items display inline */
 }
 
-.alpha-pagination-list li span {
-    font-weight: bold;
+.alpha-pagination-list li:last-child {
+    margin-right: 0;
 }
 
 .alpha-pagination-list li a {
@@ -82,7 +82,6 @@ header {
     color: #fff;
     border-color: #007bff;
 }
-
 .logo {
     display: flex; /* Use flexbox for logo alignment */
     align-items: center; /* Align items vertically */
