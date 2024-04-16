@@ -23,14 +23,25 @@ body, h1, h2, h3, p, ul, li {
     justify-content: space-between; /* Spacing between logo and nav */
     align-items: center;
 }
-
 /* Header styles */
-header {
-    background-color: #008080;
-    color: #fff;
-    padding: 20px 0;
+header
+    {
+        background-color: #008080;
+        color: #fff;
+        padding: 10px 0; /* Adjust padding as needed */
+        text-align: center; /* Center align the content */
+    }
+/* Logo styles */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Adjust margin as needed */
 }
-
+.logo h1 {
+    font-size: 24px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+}
 /* Hero section styles */
 .hero {
     background-color: white;
@@ -96,7 +107,7 @@ header {
 .footer {
     background-color: #008080;
     color: #fff;
-    padding: 60px 0;
+    padding: 30px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -111,17 +122,17 @@ header {
 
 /* Contact info styles */
 .contact-info h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .contact-info p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* Social media links styles */
 .social-media {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .social-link {
@@ -134,7 +145,6 @@ header {
 .social-link:hover {
     text-decoration: underline;
 }
-
 /* Navigation styles */
 nav ul {
     list-style-type: none;
@@ -144,16 +154,17 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 20px; /* Adjust margin as needed */
 }
 
 nav ul li:last-child {
-    margin-right: 0;
+    margin-right: 0; /* Remove margin from last item */
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 16px; /* Adjust font size as needed */
 }
 
 nav ul li a:hover {
@@ -163,13 +174,13 @@ nav ul li a:hover {
 /* About section styles */
 .about {
     background-color: #f9f9f9;
-    padding: 80px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 .about h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .about-content {
@@ -184,7 +195,7 @@ nav ul li a:hover {
 
 /* Copyright section styles */
 .copyright {
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
