@@ -16,6 +16,29 @@ header {
     color: #fff;
     padding: 20px 0;
 }
+/* Hero section styles */
+.hero {
+    background-color: blueviolet;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: blueviolet;
+    margin-bottom: 30px;
+}
 
 .container {
     max-width: 1200px;
@@ -24,7 +47,51 @@ header {
     justify-content: space-between; /* Spacing between logo and nav */
     align-items: center;
 }
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Styles for the pagination component */
+.alpha-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.alpha-pagination-list {
+    list-style: none;
+    display: inline-block; /* Display the list horizontally */
+}
+
+.alpha-pagination-list li {
+    display: inline; /* Display list items inline */
+    margin-right: 5px;
+}
+
+.alpha-pagination-list li span {
+    font-weight: bold;
+}
+
+.alpha-pagination-list li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.alpha-pagination-list li a:hover {
+    background-color: #f0f0f0;
+}
+
+.alpha-pagination-list li.active a {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
 .logo {
     display: flex; /* Use flexbox for logo alignment */
     align-items: center; /* Align items vertically */

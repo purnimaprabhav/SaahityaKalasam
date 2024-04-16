@@ -25,33 +25,13 @@
         </div>
     </header>
     <body>
-            <title>Discover Telugu Writers</title>
-            <style>
-                /* CSS code for the hero section */
-                .hero {
-                    background-color: #f7f7f7; /* Light background color */
-                    padding: 100px 0; /* Add padding to the top and bottom */
-                    text-align: center; /* Center align text */
-                }
-        
-                .hero h1 {
-                    font-size: 36px; /* Large font size for title */
-                    color: #333; /* Text color */
-                    margin-bottom: 20px; /* Add some space below title */
-                }
-        
-                .hero p {
-                    font-size: 18px; /* Medium font size for subtitle */
-                    color: #666; /* Text color */
-                    margin-bottom: 30px; /* Add some space below subtitle */
-                }
-        
-                /* Container styles */
-                .container {
-                    max-width: 800px; /* Limit the width of the container */
-                    margin: 0 auto; /* Center the container */
-                }
-            </style>
+        <body>
+            <div class="hero">
+                <div class="container">
+                    <h1>Discover Telugu Writers</h1>
+                    <p>Welcome to Saahitya Kalasam, your gateway to exploring the vibrant world of Telugu literature.</p>
+                </div>
+            </div>
     <style>
         /* CSS code for alphabet buttons */
         .alphabet-buttons {
@@ -119,45 +99,41 @@
         <input type="text" id="search" placeholder="Search Telugu writers...">
         <button id="search-button">Search</button>
     </div>
+    <div class="alpha-pagination">
+        <div class="item-list">
+        <ul class="alpha-pagination-list">
+        <li class="first"><a href="/directory/writers/A">A</a></li>
+        <li><a href="/directory/writers/B">B</a></li>
+        <li><a href="/directory/writers/C">C</a></li>
+        <li><a href="/directory/writers/D">D</a></li>
+        <li><a href="/directory/writers/E">E</a></li>
+        <li><a href="/directory/writers/F">F</a></li>
+        <li><a href="/directory/writers/G">G</a></li>
+        <li><a href="/directory/writers/H">H</a></li>
+        <li><a href="/directory/writers/I">I</a></li>
+        <li><a href="/directory/writers/J">J</a></li>
+        <li><a href="/directory/writers/K">K</a></li>
+        <li><a href="/directory/writers/L">L</a></li>
+        <li><a href="/directory/writers/M">M</a></li>
+        <li><a href="/directory/writers/N">N</a></li>
+        <li><a href="/directory/writers/O">O</a></li>
+        <li><a href="/directory/writers/P">P</a></li>
+        <li><a href="/directory/writers/Q">Q</a></li>
+        <li><a href="/directory/writers/R">R</a></li>
+        <li><a href="/directory/writers/S">S</a></li>
+        <li><a href="/directory/writers/T">T</a></li>
+        <li><a href="/directory/writers/U">U</a></li>
+        <li><a href="/directory/writers/V">V</a></li>
+        <li><a href="/directory/writers/W">W</a></li>
+        <li><a href="/directory/writers/X">X</a></li>
+        <li><a href="/directory/writers/Y">Y</a></li>
+        <li><a href="/directory/writers/Z">Z</a></li>
+        <li class="all last"><a href="/directory/writers/all">All</a></li>
+        </ul></div></div>
 
-    <div class="writer-names">
-        <!-- Writer names will be dynamically generated here -->
-    </div>
-    <div class="alphabet-buttons">
-        <!-- Hyperlinks for each alphabet -->
-        <a href="#" class="alphabet-btn" data-filter="A">A</a>
-        <a href="#" class="alphabet-btn" data-filter="B">B</a>
-        <a href="#" class="alphabet-btn" data-filter="C">C</a>
-        <a href="#" class="alphabet-btn" data-filter="D">D</a>
-        <a href="#" class="alphabet-btn" data-filter="E">E</a>
-        <a href="#" class="alphabet-btn" data-filter="F">F</a>
-        <a href="#" class="alphabet-btn" data-filter="G">G</a>
-        <a href="#" class="alphabet-btn" data-filter="H">H</a>
-        <a href="#" class="alphabet-btn" data-filter="I">I</a>
-        <a href="#" class="alphabet-btn" data-filter="J">J</a>
-        <a href="#" class="alphabet-btn" data-filter="K">K</a>
-        <a href="#" class="alphabet-btn" data-filter="L">L</a>
-        <a href="#" class="alphabet-btn" data-filter="M">M</a>
-        <a href="#" class="alphabet-btn" data-filter="N">N</a>
-        <a href="#" class="alphabet-btn" data-filter="O">O</a>
-        <a href="#" class="alphabet-btn" data-filter="P">P</a>
-        <a href="#" class="alphabet-btn" data-filter="Q">Q</a>
-        <a href="#" class="alphabet-btn" data-filter="R">R</a>
-        <a href="#" class="alphabet-btn" data-filter="S">S</a>
-        <a href="#" class="alphabet-btn" data-filter="T">T</a>
-        <a href="#" class="alphabet-btn" data-filter="U">U</a>
-        <a href="#" class="alphabet-btn" data-filter="V">V</a>
-        <a href="#" class="alphabet-btn" data-filter="W">W</a>
-        <a href="#" class="alphabet-btn" data-filter="X">X</a>
-        <a href="#" class="alphabet-btn" data-filter="Y">Y</a>
-        <a href="#" class="alphabet-btn" data-filter="Z">Z</a>
-        <a href="#" class="alphabet-btn" data-filter="ALL">All</a>
-    </div>
-
-    <div class="writer-names">
-        <!-- Writer names will be dynamically generated here -->
-    </div>
-
+        <li class="active"><span>O</span>
+        </li>
+        
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const alphabetButtons = document.querySelectorAll('.alphabet-btn');
