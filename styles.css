@@ -62,11 +62,11 @@ header {
 
 .alpha-pagination-list {
     list-style: none;
-    display: inline-block; /* Display the list horizontally */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center align the items */
 }
 
 .alpha-pagination-list li {
-    display: inline; /* Display list items inline */
     margin-right: 5px;
 }
 
