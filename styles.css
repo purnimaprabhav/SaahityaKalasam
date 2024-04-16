@@ -2,20 +2,16 @@
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Style the header */
-/* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
 /* Header styles */
 header {
     background-color: #008080;
     color: #fff;
     padding: 20px 0;
 }
+
 /* Hero section styles */
 .hero {
     background-color: blueviolet;
@@ -47,12 +43,6 @@ header {
     justify-content: space-between; /* Spacing between logo and nav */
     align-items: center;
 }
-/* Resetting default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Styles for the pagination component */
 .alpha-pagination {
@@ -63,11 +53,11 @@ header {
 .alpha-pagination-list {
     list-style: none;
     display: flex; /* Use flexbox */
-    justify-content: center; /* Center align the items */
 }
 
 .alpha-pagination-list li {
     margin-right: 5px;
+    display: inline; /* Ensure list items display inline */
 }
 
 .alpha-pagination-list li span {
@@ -92,6 +82,7 @@ header {
     color: #fff;
     border-color: #007bff;
 }
+
 .logo {
     display: flex; /* Use flexbox for logo alignment */
     align-items: center; /* Align items vertically */
@@ -148,14 +139,15 @@ nav ul li a:hover {
 }
 
 /* Style the footer section */
-    .footer {
-        background-color: #008080;
-        color: #fff;
-        padding: 60px 0;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
+.footer {
+    background-color: #008080;
+    color: #fff;
+    padding: 60px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer .container {
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space items evenly */
@@ -166,53 +158,54 @@ nav ul li a:hover {
     font-size: 24px; /* Large font size for heading */
     margin-bottom: 10px; /* Add some space below heading */
 }
-    .contact-info p {
-        font-size: 16px; /* Medium font size for contact info */
-    }
-    
-    .social-media {
-        margin-top: 10px; /* Add some space above social media links */
-    }
-    
-    .social-link {
-        display: inline-block; /* Display links inline */
-        margin-right: 10px; /* Add some space between links */
-        color: #fff; /* Link color */
-        text-decoration: none; /* Remove underline from links */
-    }
-    
-    .social-link:hover {
-        text-decoration: underline; /* Underline links on hover */
-    }
-    
-    .footer-nav ul {
-        list-style-type: none; /* Remove default bullet points */
-        display: flex; /* Use flexbox for layout */
-    }
-    
-    .footer-nav ul li {
-        margin-right: 20px; /* Add some space between navigation items */
-    }
-    
-    .footer-nav ul li:last-child {
-        margin-right: 0; /* Remove margin from last navigation item */
-    }
-    
-    .footer-nav ul li a {
-        color: #fff; /* Link color */
-        text-decoration: none; /* Remove underline from links */
-    }
-    
-    .footer-nav ul li a:hover {
-        text-decoration: underline; /* Underline links on hover */
-    }
-    
-    /* Style the copyright section */
-    .copyright {
-        padding: 20px 0; /* Add some padding */
-        text-align: center; /* Center align text */
-    }
-    
-    .copyright p {
-        font-size: 14px; /* Small font size for copyright notice */
-    }
+
+.contact-info p {
+    font-size: 16px; /* Medium font size for contact info */
+}
+
+.social-media {
+    margin-top: 10px; /* Add some space above social media links */
+}
+
+.social-link {
+    display: inline-block; /* Display links inline */
+    margin-right: 10px; /* Add some space between links */
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.social-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.footer-nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    display: flex; /* Use flexbox for layout */
+}
+
+.footer-nav ul li {
+    margin-right: 20px; /* Add some space between navigation items */
+}
+
+.footer-nav ul li:last-child {
+    margin-right: 0; /* Remove margin from last navigation item */
+}
+
+.footer-nav ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Style the copyright section */
+.copyright {
+    padding: 20px 0; /* Add some padding */
+    text-align: center; /* Center align text */
+}
+
+.copyright p {
+    font-size: 14px; /* Small font size for copyright notice */
+}
