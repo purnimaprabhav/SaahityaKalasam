@@ -1,3 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  html,
+  body {
+    position: relative;
+  }
+  
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -22,16 +31,17 @@ header {
 .hero .container {
     max-width: 800px;
     margin: 0 auto;
+
 }
 
 .hero h1 {
     font-size: 36px;
-    color: blueviolet;
+    color:blueviolet;
 }
 
 .hero p {
     font-size: 18px;
-    color: violet;
+    color:aqua
 }
 
 .container {
