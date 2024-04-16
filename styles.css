@@ -1,6 +1,7 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -12,6 +13,15 @@ body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Header and Footer Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: space-between; /* Spacing between logo and nav */
+    align-items: center;
 }
 
 /* Header styles */
@@ -43,15 +53,7 @@ header {
     color: aqua;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: inline-flex;
-    justify-content: space-between; /* Spacing between logo and nav */
-    align-items: center;
-}
-
-/* Styles for the pagination component */
+/* Pagination Component styles */
 .alpha-pagination {
     margin-top: 20px;
     align-items: center;
@@ -90,8 +92,6 @@ header {
     border-color: #007bff;
 }
 
-/* ... (rest of your CSS code) ... */
-
 /* Footer styles */
 .footer {
     background-color: #008080;
@@ -102,45 +102,40 @@ header {
     width: 100%;
 }
 
+/* Footer Container styles */
 .footer .container {
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space items evenly */
     align-items: flex-start; /* Align items at the start */
 }
 
+/* Contact info styles */
 .contact-info h3 {
-    font-size: 24px; /* Large font size for heading */
-    margin-bottom: 10px; /* Add some space below heading */
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .contact-info p {
-    font-size: 16px; /* Medium font size for contact info */
+    font-size: 16px;
 }
 
+/* Social media links styles */
 .social-media {
-    margin-top: 10px; /* Add some space above social media links */
+    margin-top: 10px;
 }
 
 .social-link {
-    display: inline-block; /* Display links inline */
-    margin-right: 10px; /* Add some space between links */
-    color: #fff; /* Link color */
-    text-decoration: none; /* Remove underline from links */
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .social-link:hover {
-    text-decoration: underline; /* Underline links on hover */
+    text-decoration: underline;
 }
 
-.logo {
-    display: flex; /* Use flexbox for logo alignment */
-    align-items: center; /* Align items vertically */
-}
-
-.logo h2 {
-    margin: 0;
-}
-
+/* Navigation styles */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -165,95 +160,34 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Style the about section */
+/* About section styles */
 .about {
-    background-color: #f9f9f9; /* Light background color */
-    padding: 80px 0; /* Add some padding */
-    text-align: center; /* Center align text */
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
 }
 
 .about h2 {
-    font-size: 32px; /* Large font size for title */
-    margin-bottom: 40px; /* Add some space below title */
+    font-size: 32px;
+    margin-bottom: 40px;
 }
 
 .about-content {
-    max-width: 800px; /* Limit the width of the content */
-    margin: 0 auto; /* Center the content */
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .about-content p {
-    font-size: 18px; /* Medium font size for paragraph */
-    line-height: 1.6; /* Set line height for better readability */
-}
-/* Style the footer section */
-.footer {
-    background-color: #008080;
-    color: #fff;
-    padding: 60px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
-.footer .container {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space items evenly */
-    align-items: flex-start; /* Align items at the start */
-}
-
-.contact-info h3 {
-    font-size: 24px; /* Large font size for heading */
-    margin-bottom: 10px; /* Add some space below heading */
-}
-
-.contact-info p {
-    font-size: 16px; /* Medium font size for contact info */
-}
-
-.social-media {
-    margin-top: 10px; /* Add some space above social media links */
-}
-
-.social-link {
-    display: inline-block; /* Display links inline */
-    margin-right: 10px; /* Add some space between links */
-    color: #fff; /* Link color */
-    text-decoration: none; /* Remove underline from links */
-}
-
-.social-link:hover {
-    text-decoration: underline; /* Underline links on hover */
-}
-
-.footer-nav ul {
-    list-style-type: none; /* Remove default bullet points */
-    display: flex; /* Use flexbox for layout */
-}
-
-.footer-nav ul li {
-    margin-right: 20px; /* Add some space between navigation items */
-}
-
-.footer-nav ul li:last-child {
-    margin-right: 0; /* Remove margin from last navigation item */
-}
-
-.footer-nav ul li a {
-    color: #fff; /* Link color */
-    text-decoration: none; /* Remove underline from links */
-}
-
-.footer-nav ul li a:hover {
-    text-decoration: underline; /* Underline links on hover */
-}
-
-/* Style the copyright section */
+/* Copyright section styles */
 .copyright {
-    padding: 20px 0; /* Add some padding */
-    text-align: center; /* Center align text */
+    padding: 20px 0;
+    text-align: center;
 }
 
 .copyright p {
-    font-size: 14px; /* Small font size for copyright notice */
+    font-size: 14px;
 }
