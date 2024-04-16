@@ -24,24 +24,37 @@ body, h1, h2, h3, p, ul, li {
     align-items: center;
 }
 /* Header styles */
-header
-    {
-        background-color: #008080;
-        color: #fff;
-        padding: 10px 0; /* Adjust padding as needed */
-        text-align: center; /* Center align the content */
-    }
-/* Logo styles */
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px; /* Adjust margin as needed */
+header {
+    background-color: #333; /* Dark background color for header */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Add padding to the top and bottom */
 }
-.logo h1 {
-    font-size: 24px; /* Adjust font size as needed */
+
+.logo {
+    display: flex; /* Use flexbox for logo and navigation alignment */
+    align-items: center; /* Align items vertically */
+}
+
+.logo h2 {
     margin: 0; /* Remove default margin */
 }
+
+nav ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between list items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color for links */
+}
+
 /* Hero section styles */
 .hero {
     background-color: white;
