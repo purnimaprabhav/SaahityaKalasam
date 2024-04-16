@@ -14,7 +14,7 @@ header {
 
 /* Hero section styles */
 .hero {
-    background-color: blueviolet;
+    background-color: white;
     padding: 100px 0;
     text-align: center;
 }
@@ -26,14 +26,12 @@ header {
 
 .hero h1 {
     font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
+    color: blueviolet;
 }
 
 .hero p {
     font-size: 18px;
-    color: blueviolet;
-    margin-bottom: 30px;
+    color: violet;
 }
 
 .container {
