@@ -41,11 +41,37 @@ header {
 
 .logo {
     display: flex; /* Use flexbox for logo alignment */
-    align-items: center; /* Align items vertically */
+    align-items: left; /* Align items vertically */
 }
 
 .logo img {
     max-width: 200px; /* Limit the width of the logo */
+}
+
+.search-bar {
+    margin-top: 20px; /* Add some space above the search bar */
+    text-align: center; /* Center align search bar */
+}
+
+.search-bar input[type="text"] {
+    padding: 8px; /* Add padding to input field */
+    width: 300px; /* Set width of input field */
+    border: 1px solid #ccc; /* Add border to input field */
+    border-radius: 5px; /* Add border radius to input field */
+    margin-right: 5px; /* Add some space between input field and button */
+}
+
+.search-bar button {
+    padding: 8px 16px; /* Add padding to button */
+    background-color: #1100ff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.search-bar button:hover {
+    background-color: #0057b360; /* Darker background color on hover */
 }
 
 nav ul {
